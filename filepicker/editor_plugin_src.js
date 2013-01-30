@@ -32,10 +32,10 @@
       return {
         longname : 'Filepicker plugin',
         author : 'Brian Park',
-        authorTwitterURL: 'http://twitter.com/yaru22',
-        authorGithubURL: 'http://github.com/yaru22',
+        authorTwitterURL: 'https://twitter.com/yaru22',
+        authorGithubURL: 'https://github.com/yaru22',
         authorurl : 'http://brianpark.ca',
-        infourl : '<TODO: put github path>',
+        infourl : 'https://github.com/yaru22/tinymce-filepicker',
         version : '1.0'
       };
     }
