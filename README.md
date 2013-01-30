@@ -10,6 +10,12 @@ Installation
 Copy filepicker directory in this repository to TinyMCE's plugins directory.
 
 
+Live Demo
+---------
+
+See the live demo [here](http://www.brianpark.ca/projects/tinymce-filepicker/).
+
+
 Usage
 -----
 
