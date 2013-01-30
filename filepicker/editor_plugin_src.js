@@ -10,7 +10,7 @@
     init : function(ed, url) {
       // Register the command
       ed.addCommand('bpFilepicker', function() {
-        filepicker.pick(function(FPFile) {
+        filepicker.pick({ 'mimetype': 'image/*' }, function(FPFile) {
           var imgHTML = tinymce.activeEditor.dom.createHTML('img', {
             src: FPFile.url,
             style: 'max-width: 930px;'
