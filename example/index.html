@@ -14,7 +14,7 @@
 
   <!-- Add filepicker javascript here. -->
   <script src='//api.filepicker.io/v1/filepicker.js'></script>
-  <script src='js/tiny_mce/tiny_mce.js'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/tinymce/3.5.8/tiny_mce.js'></script>
 </head>
 <body>
   <div class='editor'>
@@ -28,12 +28,17 @@
   <script type='text/javascript'>
     // Set the filepicker API key here.
     filepicker.setKey('YOUR-FILEPICKER-API-KEY-HERE');
+
+    // Load the filepicker plugin from an external URL
+    // NOTE: You should specify the full URL.
+    tinyMCE.PluginManager.load('filepicker', window.location.href + '/fp-plugin/editor_plugin.js');
     tinyMCE.init({
       schema : 'html5',
       mode   : 'textareas',
       height : '500px',
 
-      plugins : ' filepicker',  // Add filepicker plugin here.
+      // Add filepicker plugin here. '-' sign means don't try to load it again since we loaded it above.
+      plugins : '-filepicker',
 
       theme : 'advanced',
       theme_advanced_toolbar_location : 'top',
