@@ -13,7 +13,7 @@ Copy filepicker directory in this repository to TinyMCE's plugins directory.
 Live Demo
 ---------
 
-See the live demo [here](https://www.shopstarter.org/s/demo/). Click on 'Claim This Shop' (it's just a demo =) it's okay to claim it) button and you'll see TinyMCE editor in the customize page. You'll see the Filepicker icon on the editor's menu bar besides the unlink icon. Enjoy playing with the editor!
+See the live demo [here](https://www.shopstarter.org/s/demo?ref=github). Click on 'Claim This Shop' (it's just a demo =) it's okay to claim it) button and you'll see TinyMCE editor in the customize page. You'll see the Filepicker icon on the editor's menu bar besides the unlink icon. Enjoy playing with the editor!
 
 ![TinyMCE-Filepicker Screenshot](https://dl.dropbox.com/u/35534880/TinyMCE-Filepicker.png "TinyMCE-Filepicker Integration")
 
